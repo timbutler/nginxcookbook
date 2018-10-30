@@ -26,4 +26,4 @@ RUN ln -sf /dev/stderr /var/log/nginx/error.log
 # Expose port 443 (HTTPS)
 EXPOSE 443
 
-CMD [""nginx"", ""-g"", ""daemon off;""]
+CMD ["nginx", "-g", "daemon off;"]
